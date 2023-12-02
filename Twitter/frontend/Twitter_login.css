@@ -1,0 +1,178 @@
+body {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-height: 90vh;
+}
+
+
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+}
+
+.heading-div {
+  display: block;
+}
+
+.logo-div {
+  position: absolute;
+  top: 165px;
+  left: 250px;
+}
+
+.heading {
+  font-weight: bolder;
+  font-size: 65px;
+
+}
+
+.info-div {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+}
+
+.join-div {
+  margin-top: 30px;
+}
+.join-para {
+  font-weight: bolder;
+  font-size: 30px;
+  display: inline;
+}
+
+.google-button {
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+  border-radius: 50px;
+  border: none;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+.apple-button {
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  margin-top: 15px;
+  color: black;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple-logo-div {
+  width: 18px;
+  display: inline-block;
+  padding-right: 0px;
+  margin-right: 5px;
+}
+
+.google-logo-div {
+  width: 18px;
+  display: inline-block;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.or-div {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+.or-left-div {
+  width: 120px;
+  height: 1px;
+  background-color: gray;
+}
+
+.or-right-div {
+  width: 140px;
+  height: 1px;
+  background-color: gray;
+}
+
+.or-para {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.create-button {
+  margin-top: 5px;
+  width: 300px;
+  padding: 10px;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.sign-in-div {
+  margin-top: 65px;
+}
+
+.tandc {
+  font-size: 10px;
+  color: gray;
+  width: 300px;
+}
+
+.span1 {
+  color: rgba(29, 155, 240);
+}
+
+.span1:hover {
+  text-decoration: underline;
+}
+
+.sign-in-para {
+  font-weight: bold;
+}
+
+.sign-in-button {
+  margin-top: 5px;
+  width: 300px;
+  background-color: black;
+  color: rgba(29, 155, 240);
+  border: 1px solid;
+  border-color: gray;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: bold;
+  height: 40px;
+}
+
+span {
+  margin-right: 3px;
+}
+
+span:hover {
+  text-decoration: underline;
+}
+
+.last-span {
+  display: block;
+  text-align: center;
+}

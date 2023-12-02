@@ -1,0 +1,109 @@
+body {
+  background-color: rgba(33, 29, 29, 0.951);
+}
+
+.full-div {
+  display: flex;
+  padding: 30px;
+  color: white;
+  font-family: play;
+}
+
+.left-div {
+  background-color: black;
+  width: 40%;
+  max-width: 30%;
+  height: 100vh;
+  box-shadow: 0px 0px 8px 5px rgba(91, 89, 89, 0.326);
+  max-height: 418px;
+  padding: 150px;
+}
+
+.right-div {
+  width: 50%;
+  height: 100vh;
+  background-image: url("background_image.jpg");
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 8px 5px rgba(91, 89, 89, 0.326);
+  background-position: center;
+  background-size: cover;
+}
+
+.login-heading {
+  margin-bottom: 0px;
+}
+
+.login-para {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.google-button {
+  width: 300px;
+  padding: 8px;
+  font-size: 15px;
+  background-color: black;
+  cursor: pointer;
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-radius: 20px;
+}
+
+.google-logo {
+  width: 15px;
+  display: inline-block;
+  padding-right: 4px;
+}
+
+.email-div {
+  padding-top: 7px;
+}
+
+.email-button {
+  width: 300px;
+  padding: 8px;
+  text-align: start;
+  font-size: 15px;
+  background-color: black;
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  border-radius: 20px;
+}
+
+.password-button {
+  width: 300px;
+  padding: 8px;
+  text-align: start;
+  font-size: 15px;
+  background-color: black;
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  border-radius: 20px;
+}
+
+.login-button {
+  margin-top: 50px;
+  width: 300px;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(29, 155, 240);
+  font-weight: bold;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.rights-div {
+  margin-top: 140px;
+}
+
+.rights-para {
+  font-size: 7px;
+  text-align: start;
+}

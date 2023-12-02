@@ -1,0 +1,260 @@
+.top-div {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  justify-content: flex-start;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 135vh;
+}
+
+.center-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 730px;
+  height: 115vh;
+  background-color: black;
+  position: absolute;
+  top: 130px;
+  border: none;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 70px;
+  width: 350px;
+}
+
+.buttons-div {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+}
+
+.google-div {
+  margin-top: 50px;
+}
+
+.google-button {
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 50px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.google-button:hover {
+  border-color: white;
+}
+
+p {
+  margin: 0px;
+  font-size: 17px;
+  margin-left: 50px;
+}
+
+.google-logo {
+  width: 20px;
+  margin-left: 20px;
+}
+
+.apple-button {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  width: 330px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 50px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.apple-button:hover {
+  border-color: white;
+}
+
+.apple-logo {
+  width: 20px;
+  margin-left: 20px;
+}
+
+.facebook-logo {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  width: 330px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 50px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.phone-button {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  width: 330px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 50px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.phone-button:hover {
+  border-color: white;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  width: 350px;
+}
+
+.email-input {
+  width: 310px;
+  height: 40px;
+  border-color: gray;
+  border-radius: 5px;
+  color: gray;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.password-input {
+  width: 310px;
+  height: 42px;
+  border-color: gray;
+  border-radius: 5px;
+  color: gray;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.login-button {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  width: 310px;
+  background-color: #1ed760;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  justify-content: center;
+  font-family: "Inclusive Sans";
+  height: 45px;
+  align-items: center;
+  font-size: 15px;
+  max-width: 330px;
+}
+
+.pass-input-div {
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 5px;
+  height: 43px;
+  width: 321px;
+  padding-left: 2px;
+  background-color: rgb(27, 27, 27);
+  margin-left: 1px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 8px;
+  left: 280px;
+}
+
+.eye-icon:hover {
+  fill: #ffff;
+}
+
+.eye-icon:active {
+  text-decoration: underline;
+}
+
+.login-div {
+  margin-top: 50px;
+}
+
+.forget-pass-div:hover {
+  color: #1ed760;
+}
+
+.facebook-logo:hover {
+  border-color: white;
+}
+
+.email-input-div {
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 5px;
+  height: 43px;
+  width: 322px;
+  background-color: rgb(27, 27, 27);
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #1ed760;
+}
+
+.login-button:hover {
+  padding: 5px;
+}
+
+.login-button:hover {
+  transform: scale(1.05);
+}
+

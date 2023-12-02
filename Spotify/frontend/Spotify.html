@@ -1,0 +1,291 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up - Spotify</title>
+    <link rel="stylesheet" href="Spotify.css" />
+    <link rel="shortcut icon" href="spotify-favicon.png" type="image/x-icon" />
+    <link
+      rel="preload"
+      href="https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Book.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Play:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      height: 150vh;
+      background-color: rgb(27, 27, 27);
+      font-family: 'Inclusive Sans', sans-serif;
+      color: white;
+    "
+  >
+    <div class="top-div">
+      <div class="logo-div">
+        <svg
+          role="img"
+          viewBox="0 0 78 24"
+          aria-label="Spotify"
+          aria-hidden="false"
+          width="120px"
+          data-encore-id="logoSpotify"
+          class="logo"
+          style="fill: white; padding-left: 20px"
+        >
+          <title>Spotify</title>
+          <path
+            d="M18.616 10.639c-3.77-2.297-9.99-2.509-13.59-1.388a1.077 1.077 0 0 1-1.164-.363 1.14 1.14 0 0 1-.119-1.237c.136-.262.37-.46.648-.548 4.132-1.287 11-1.038 15.342 1.605a1.138 1.138 0 0 1 .099 1.863 1.081 1.081 0 0 1-.813.213c-.142-.02-.28-.07-.403-.145Zm-.124 3.402a.915.915 0 0 1-.563.42.894.894 0 0 1-.69-.112c-3.144-1.983-7.937-2.557-11.657-1.398a.898.898 0 0 1-.971-.303.952.952 0 0 1-.098-1.03.929.929 0 0 1 .54-.458c4.248-1.323 9.53-.682 13.14 1.595a.95.95 0 0 1 .3 1.286Zm-1.43 3.267a.73.73 0 0 1-.45.338.712.712 0 0 1-.553-.089c-2.748-1.722-6.204-2.111-10.276-1.156a.718.718 0 0 1-.758-.298.745.745 0 0 1-.115-.265.757.757 0 0 1 .092-.563.737.737 0 0 1 .457-.333c4.455-1.045 8.277-.595 11.361 1.338a.762.762 0 0 1 .241 1.028ZM11.696 0C5.237 0 0 5.373 0 12c0 6.628 5.236 12 11.697 12 6.46 0 11.698-5.372 11.698-12 0-6.627-5.238-12-11.699-12h.001Zm20.126 11.078c-2.019-.494-2.379-.84-2.379-1.57 0-.688.633-1.151 1.572-1.151.91 0 1.814.352 2.76 1.076a.131.131 0 0 0 .187-.03l.987-1.426a.139.139 0 0 0-.025-.185c-1.127-.928-2.396-1.378-3.88-1.378-2.18 0-3.703 1.342-3.703 3.263 0 2.06 1.315 2.788 3.585 3.352 1.932.457 2.258.84 2.258 1.524 0 .757-.659 1.229-1.72 1.229-1.18 0-2.141-.408-3.216-1.364a.13.13 0 0 0-.188.016l-1.106 1.35a.137.137 0 0 0 .013.188c1.252 1.147 2.79 1.752 4.451 1.752 2.35 0 3.869-1.317 3.869-3.356 0-1.723-1.003-2.676-3.465-3.29Zm10.487 2.31c0 1.454-.874 2.47-2.125 2.47-1.235 0-2.169-1.061-2.169-2.47 0-1.41.933-2.47 2.17-2.47 1.23 0 2.124 1.038 2.124 2.47Zm-1.706-4.354c-1.018 0-1.854.412-2.543 1.256v-.95a.136.136 0 0 0-.038-.095.132.132 0 0 0-.093-.04h-1.81a.131.131 0 0 0-.093.04.136.136 0 0 0-.039.096v10.546c0 .076.06.137.133.137h1.809a.132.132 0 0 0 .093-.041.136.136 0 0 0 .038-.096v-3.329c.69.794 1.525 1.18 2.543 1.18 1.893 0 3.808-1.494 3.808-4.35 0-2.858-1.915-4.354-3.808-4.354Zm8.72 6.839c-1.297 0-2.274-1.068-2.274-2.486 0-1.422.943-2.455 2.244-2.455 1.305 0 2.288 1.069 2.288 2.487 0 1.422-.949 2.454-2.258 2.454Zm0-6.838c-2.438 0-4.347 1.926-4.347 4.383 0 2.432 1.896 4.338 4.317 4.338 2.445 0 4.36-1.92 4.36-4.369 0-2.44-1.901-4.353-4.33-4.353Zm9.535.17h-1.99V7.117a.136.136 0 0 0-.08-.126.13.13 0 0 0-.052-.01h-1.809a.133.133 0 0 0-.093.04.136.136 0 0 0-.038.095v2.087h-.87a.131.131 0 0 0-.122.085.139.139 0 0 0-.01.052v1.595c0 .074.06.135.132.135h.87v4.126c0 1.667.809 2.513 2.404 2.513.648 0 1.186-.138 1.694-.434a.135.135 0 0 0 .067-.117V15.64a.137.137 0 0 0-.063-.115.13.13 0 0 0-.129-.006c-.349.18-.685.263-1.061.263-.58 0-.84-.271-.84-.876V11.07h1.99a.13.13 0 0 0 .094-.04.136.136 0 0 0 .039-.096V9.339a.137.137 0 0 0-.039-.096.132.132 0 0 0-.094-.04v.001Zm6.934.007v-.255c0-.755.281-1.092.914-1.092.376 0 .68.077 1.019.194a.13.13 0 0 0 .118-.02.135.135 0 0 0 .056-.11V6.365a.137.137 0 0 0-.026-.081.133.133 0 0 0-.068-.05 4.852 4.852 0 0 0-1.502-.22c-1.67 0-2.554.965-2.554 2.788v.393h-.87a.132.132 0 0 0-.093.04.136.136 0 0 0-.038.096v1.603c0 .075.059.136.132.136h.87v6.364c0 .075.058.135.131.135h1.809c.072 0 .131-.06.131-.135V11.07h1.69l2.586 6.362c-.294.669-.583.802-.977.802-.319 0-.654-.098-.998-.29a.133.133 0 0 0-.105-.01.135.135 0 0 0-.078.072l-.612 1.38a.137.137 0 0 0 .056.175 3.733 3.733 0 0 0 1.932.508c1.334 0 2.073-.638 2.724-2.355l3.137-8.317a.14.14 0 0 0-.014-.126.131.131 0 0 0-.108-.06h-1.883a.132.132 0 0 0-.126.092l-1.928 5.651L69.006 9.3a.133.133 0 0 0-.124-.088h-3.09v.001Zm-4.02-.008h-1.809a.132.132 0 0 0-.093.041.136.136 0 0 0-.038.096v8.094c0 .075.06.135.132.135h1.809c.072 0 .131-.06.131-.135V9.34a.136.136 0 0 0-.038-.096.133.133 0 0 0-.094-.04Zm-.896-3.685a1.295 1.295 0 0 0-.919.393c-.243.25-.379.586-.377.937a1.342 1.342 0 0 0 .377.938 1.304 1.304 0 0 0 .92.393c.346-.002.677-.143.92-.393s.379-.587.377-.938c0-.735-.581-1.33-1.296-1.33h-.002Zm15.918 4.49h-.331v.434h.331c.165 0 .264-.083.264-.216 0-.142-.099-.217-.264-.217Zm.215.619.36.517h-.304l-.323-.474h-.279v.474h-.254v-1.37h.595c.31 0 .515.163.515.436a.412.412 0 0 1-.31.417Zm-.282-1.31c-.652 0-1.146.532-1.146 1.183 0 .65.49 1.175 1.139 1.175.652 0 1.147-.532 1.147-1.183 0-.65-.492-1.174-1.14-1.174Zm-.007 2.488a1.259 1.259 0 0 1-.904-.384 1.296 1.296 0 0 1-.368-.92c0-.717.563-1.314 1.279-1.314a1.259 1.259 0 0 1 .903.384 1.295 1.295 0 0 1 .369.921c0 .717-.563 1.314-1.279 1.314Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <div class="bottom-div">
+      <div class="center-div">
+        <div class="buttons-div">
+          <div class="heading">Log in to Spotify</div>
+          <div class="google-div">
+            <button class="google-button" id="google" onclick="google()">
+              <div class="google-logo">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 48 48"
+                  class="LgbsSe-Bz112c"
+                >
+                  <g>
+                    <path
+                      fill="#EA4335"
+                      d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"
+                    ></path>
+                    <path
+                      fill="#4285F4"
+                      d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"
+                    ></path>
+                    <path
+                      fill="#FBBC05"
+                      d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"
+                    ></path>
+                    <path
+                      fill="#34A853"
+                      d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"
+                    ></path>
+                    <path fill="none" d="M0 0h48v48H0z"></path>
+                  </g>
+                </svg>
+              </div>
+              <p>Continue with Google</p>
+            </button>
+          </div>
+          <div class="facebook-div">
+            <button class="facebook-logo" id="facebook" onclick="facebook()">
+              <img
+                src="facebook-logo.svg.webp"
+                width="20px"
+                style="margin-left: 20px"
+              />
+              <p>Continue with Facebook</p>
+            </button>
+          </div>
+          <div class="apple-div">
+            <button class="apple-button" id="apple" onclick="apple()">
+              <div class="apple-logo">
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="r-4qtqp9 r-yyyyoo r-z80fyv r-1d4mawv r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-19wmn03"
+                  style="color: rgb(15, 20, 25)"
+                >
+                  <g>
+                    <path
+                      fill="#ffff"
+                      d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.07-.463 1.58-1.518 3.12-.945 1.34-1.94 2.71-3.43 2.71-1.517 0-1.9-.88-3.63-.88-1.698 0-2.302.91-3.67.91-1.377 0-2.332-1.26-3.428-2.8-1.287-1.82-2.323-4.63-2.323-7.28 0-4.28 2.797-6.55 5.552-6.55 1.448 0 2.675.95 3.6.95.865 0 2.222-1.01 3.902-1.01.613 0 2.886.06 4.374 2.19-.13.09-2.383 1.37-2.383 4.19 0 3.26 2.854 4.42 2.955 4.45z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <p>Continue with Apple</p>
+            </button>
+          </div>
+          <div class="phone-div">
+            <button class="phone-button" id="phone" onclick="phonenumber()">
+              <p>Continue with phone number</p>
+            </button>
+          </div>
+        </div>
+        <div
+          class="line-div"
+          style="
+            height: 1px;
+            width: 500px;
+            margin-left: 30px;
+            margin-right: 50px;
+            margin-top: 40px;
+            background-color: rgb(41, 41, 41);
+          "
+        ></div>
+        <div class="info-div">
+          <div class="email-div" style="margin-top: 30px">
+            <p
+              style="
+                margin-left: 0px;
+                margin-bottom: 8px;
+                font-size: 14px;
+                font-weight: bold;
+              "
+            >
+              Email or username
+            </p>
+            <div class="email-input-div">
+              <input
+                aria-invalid="false"
+                id="login-username"
+                type="email"
+                placeholder="Email or username"
+                data-testid="login-username"
+                autocapitalize="off"
+                autocomplete="username"
+                spellcheck="false"
+                autocorrect="off"
+                aria-describedby="username-error"
+                data-encore-id="formInput"
+                class="email-input"
+                value=""
+                style="border: none; padding-left: 10px"
+                width="300px"
+              />
+            </div>
+          </div>
+          <div class="password-div" style="position: relative; width: 330px">
+            <p
+              style="
+                margin-left: 0px;
+                margin-bottom: 8px;
+                font-size: 14px;
+                font-weight: bold;
+                margin-top: 15px;
+              "
+            >
+              Password
+            </p>
+            <div class="pass-input-div" style="position: relative">
+              <input
+                aria-invalid="false"
+                id="login-username"
+                type="password"
+                placeholder="Password"
+                data-testid="login-username"
+                autocapitalize="off"
+                autocomplete="username"
+                spellcheck="false"
+                autocorrect="off"
+                aria-describedby="username-error"
+                data-encore-id="formInput"
+                class="password-input"
+                value=""
+                style="padding: 0px; border: none; padding-left: 10px"
+              />
+              <svg
+                role="img"
+                height="24"
+                width="24"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                data-encore-id="icon"
+                class="eye-icon"
+              >
+                <path
+                  fill="gray"
+                  d="M6.703 7.382A6.073 6.073 0 0 0 6.113 10c0 3.292 2.614 6 5.887 6 3.273 0 5.886-2.708 5.886-6 0-.936-.211-1.825-.589-2.618.573.341 1.115.744 1.634 1.204.674.596 1.77 1.793 2.683 3.414-.913 1.62-2.01 2.818-2.683 3.414C17.037 17.093 14.833 18 12 18s-5.037-.907-6.931-2.586c-.674-.596-1.77-1.793-2.683-3.414.913-1.62 2.01-2.818 2.683-3.414.519-.46 1.061-.863 1.634-1.204zM12 4C8.671 4 5.996 5.091 3.742 7.089c-.896.794-2.3 2.353-3.381 4.453L.125 12l.236.458c1.082 2.1 2.485 3.659 3.381 4.453C5.996 18.908 8.672 20 12 20c3.329 0 6.004-1.091 8.258-3.089.896-.794 2.3-2.353 3.38-4.453l.237-.458-.236-.458c-1.082-2.1-2.485-3.659-3.381-4.453C18.004 5.09 15.328 4 12 4zm0 2c2.125 0 3.886 1.77 3.886 4S14.125 14 12 14s-3.886-1.77-3.886-4S9.875 6 12 6z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="remember-button"></div>
+          <div class="login-div">
+            <button class="login-button" id="login" onclick="login()">
+              Log In
+            </button>
+          </div>
+
+          <div class="forget-pass-div">
+            <a
+              href="#"
+              style="
+                display: flex;
+                flex-direction: row;
+                margin-top: 20px;
+                align-items: center;
+                justify-content: center;
+              "
+              >Forgot Your Password?</a
+            >
+          </div>
+          <div
+            class="line-div"
+            style="
+              height: 10px;
+              width: 500px;
+              margin-left: 30px;
+              margin-right: 50px;
+              margin-top: 40px;
+              background-color: rgb(41, 41, 41);
+            "
+          ></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-div"
+      style="
+        height: 125px;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+      "
+    >
+      <div
+        class="signup-div"
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          color: gray;
+        "
+      >
+        Didn't have an account?
+        <a href=""> Sign up for Spotify</a>
+      </div>
+      <div
+        class="rights-div"
+        style="
+          color: gray;
+          display: block;
+          text-align: center;
+          font-size: 12px;
+          padding-top: 70px;
+
+        "
+      >
+        This site is protected by reCAPTCHA and the Google
+        <span style="text-decoration: underline">Privacy Policy</span> and
+        <span style="text-decoration: underline">Terms of Service</span> apply.
+      </div>
+    </div>
+  </body>
+</html>
